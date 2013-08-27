@@ -10,6 +10,7 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "curl": "git+ssh://git@github.com:cujojs/curl.git#0.8.0"
+    "curl": "git+ssh://git@github.com:cujojs/curl.git#0.8.0",
+    "express": "~3.3.6"
   }
 }
