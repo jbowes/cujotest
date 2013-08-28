@@ -22,5 +22,5 @@ npm run cram
 node app.js
 ```
 
-unminified -> http://localhost:3000
-minified -> http://localhost:3000/min.html
+- unminified -> [http://localhost:3000](http://localhost:3000)
+- minified -> [http://localhost:3000/min.html](http://localhost:3000/min.html)
