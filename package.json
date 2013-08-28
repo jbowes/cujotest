@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cram": "node_modules/.bin/cram static/js/config.js -r static -o static/min -l node_modules/curl/dist/curl/curl.js"
   },
   "repository": "",
   "author": "",
@@ -13,5 +14,8 @@
     "curl": "git+ssh://git@github.com:cujojs/curl.git#0.8.0",
     "express": "~3.3.6",
     "lodash": "~1.3.1"
+  },
+  "devDependencies": {
+    "cram": "~0.7.5"
   }
 }
